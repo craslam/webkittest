@@ -2,11 +2,8 @@
 import gtk
 import webkit
 import warnings
-import sys
 import gobject
-import jsbeautifier
 gobject.threads_init()
-
 
 warnings.filterwarnings('ignore')
 
@@ -38,8 +35,6 @@ class Crawler(gtk.Window):
             #beaut = jsbeautifier.default_options(p)
             f.write(p)
             print p
-
-
 
         gtk.main_quit()
 

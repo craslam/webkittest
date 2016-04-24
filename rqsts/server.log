@@ -1,9 +1,9 @@
 Running BrowserMob Proxy using LittleProxy implementation. To revert to the legacy implementation, run the proxy with the command-line option '--use-littleproxy false'.
-[INFO  2016-04-07T01:05:08,362 net.lightbody.bmp.proxy.Main] (main) Starting BrowserMob Proxy version 2.1.0-beta-4 
-[INFO  2016-04-07T01:05:08,404 org.eclipse.jetty.util.log] (main) jetty-7.x.y-SNAPSHOT 
-[INFO  2016-04-07T01:05:08,436 org.eclipse.jetty.util.log] (main) started o.e.j.s.ServletContextHandler{/,null} 
-[INFO  2016-04-07T01:05:08,958 org.eclipse.jetty.util.log] (main) Started SelectChannelConnector@0.0.0.0:8080 
-[INFO  2016-04-07T01:05:09,657 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1259393266-17) Starting proxy at address: 0.0.0.0/0.0.0.0:8081 
-[INFO  2016-04-07T01:05:09,673 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1259393266-17) Proxy listening with TCP transport 
-[INFO  2016-04-07T01:05:09,727 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1259393266-17) Proxy started at address: /0:0:0:0:0:0:0:0:8081 
-[WARN  2016-04-07T01:05:10,697 net.lightbody.bmp.mitm.util.SslUtil] (LittleProxy-0-ClientToProxyWorker-0) Disabling upstream server certificate verification. This will allow attackers to intercept communications with upstream servers. 
+[INFO  2016-04-24T01:19:30,066 net.lightbody.bmp.proxy.Main] (main) Starting BrowserMob Proxy version 2.1.0-beta-5 
+[INFO  2016-04-24T01:19:30,104 org.eclipse.jetty.util.log] (main) jetty-7.x.y-SNAPSHOT 
+[INFO  2016-04-24T01:19:30,133 org.eclipse.jetty.util.log] (main) started o.e.j.s.ServletContextHandler{/,null} 
+[INFO  2016-04-24T01:19:30,599 org.eclipse.jetty.util.log] (main) Started SelectChannelConnector@0.0.0.0:8080 
+[INFO  2016-04-24T01:19:31,569 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1057830681-15) Starting proxy at address: 0.0.0.0/0.0.0.0:8081 
+[INFO  2016-04-24T01:19:31,588 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1057830681-15) Proxy listening with TCP transport 
+[INFO  2016-04-24T01:19:31,647 org.littleshoot.proxy.impl.DefaultHttpProxyServer] (qtp1057830681-15) Proxy started at address: /0:0:0:0:0:0:0:0:8081 
+[WARN  2016-04-24T01:19:32,456 net.lightbody.bmp.mitm.util.SslUtil] (LittleProxy-0-ClientToProxyWorker-0) Disabling upstream server certificate verification. This will allow attackers to intercept communications with upstream servers. 
